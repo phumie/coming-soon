@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Major+Mono+Display");
+@import url("https://fonts.googleapis.com/css?family=Hind");
+
+body {
+  background: #e38d83;
+}
+
+.contents {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 50vh;
+  text-align: center;
+  color: white;
+}
+
+.contents img {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coming-soon {
+  width: auto;
+  height: auto;
+  font-size: 30px;
+}
+
+.coming-soon hr {
+  border: 0.5px solid rgb(236, 236, 236);
+  width: 20%;
+}
+
+@media only screen and (max-width: 650px) {
+  .contents {
+    width: 100%;
+  }
+  .coming-soon img {
+    width: 300px;
+  }
+  .coming-soon h3 {
+    font-size: 20px;
+  }
+  .coming-soon p {
+    font-size: 15px;
+  }
+}

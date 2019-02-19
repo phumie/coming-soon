@@ -3,6 +3,7 @@
 
 body {
   background: #e38d83;
+  overflow: hidden;
 }
 
 .contents {
@@ -41,7 +42,7 @@ body {
     width: 100%;
   }
   .coming-soon img {
-    width: 250px;
+    width: 200px;
   }
   .coming-soon h3 {
     font-size: 20px;

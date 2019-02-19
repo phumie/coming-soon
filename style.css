@@ -4,6 +4,8 @@
 body {
   background: #e38d83;
   overflow: hidden;
+  height: 100vh;
+  width: 100%;
 }
 
 .contents {

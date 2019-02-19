@@ -31,7 +31,15 @@ body {
 .coming-soon {
   width: auto;
   height: auto;
-  font-size: 30px;
+}
+
+.coming-soon h3 {
+  font-family: "Hind", sans-serif;
+}
+
+.coming-soon p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
 }
 
 .coming-soon hr {
@@ -44,12 +52,12 @@ body {
     width: 100%;
   }
   .coming-soon img {
-    width: 200px;
+    width: 80%;
   }
   .coming-soon h3 {
     font-size: 20px;
   }
   .coming-soon p {
-    font-size: 15px;
+    font-size: 13px;
   }
 }

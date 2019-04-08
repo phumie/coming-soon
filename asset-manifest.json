@@ -1,0 +1,21 @@
+{
+  "main.css": "/static/css/main.4d440a74.chunk.css",
+  "main.js": "/static/js/main.3f451ad3.chunk.js",
+  "main.js.map": "/static/js/main.3f451ad3.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
+  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
+  "static/css/2.5764c337.chunk.css": "/static/css/2.5764c337.chunk.css",
+  "static/js/2.7ed50070.chunk.js": "/static/js/2.7ed50070.chunk.js",
+  "static/js/2.7ed50070.chunk.js.map": "/static/js/2.7ed50070.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.3652b501a84fc784a810893061cae999.js": "/precache-manifest.3652b501a84fc784a810893061cae999.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/2.5764c337.chunk.css.map": "/static/css/2.5764c337.chunk.css.map",
+  "static/css/main.4d440a74.chunk.css.map": "/static/css/main.4d440a74.chunk.css.map",
+  "static/media/angular.png": "/static/media/angular.14a0f653.png",
+  "static/media/phumie-avatar.png": "/static/media/phumie-avatar.c79d23ce.png",
+  "static/media/phumie-logo-black.png": "/static/media/phumie-logo-black.93613017.png",
+  "static/media/phumie-logo-white.png": "/static/media/phumie-logo-white.0d84d376.png",
+  "static/media/phumie_drawing_high.png": "/static/media/phumie_drawing_high.7b37c44f.png",
+  "static/media/resume_example.pdf": "/static/media/resume_example.b85aee68.pdf"
+}

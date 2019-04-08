@@ -1,0 +1,8 @@
+.resume-content {
+  position: absolute;
+  background: rgb(36, 35, 35);
+  height: 86vh;
+  width: 100%;
+  color: white;
+  top: 12vh;
+}

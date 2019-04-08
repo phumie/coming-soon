@@ -1,0 +1,76 @@
+.portfolio-content {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  height: 65vh;
+  /* background-color: #ccc; */
+  background: #e38d83;
+}
+
+.center-content {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  height: 60vh;
+  /* background-color: #ccc; */
+  /* background: #2c2c2c; */
+  color: rgb(255, 255, 255);
+}
+
+.center-content h4,
+p {
+  text-align: center;
+}
+.a-left i {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  font-size: 4em;
+  color: rgb(39, 39, 39);
+}
+.a-right i {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  font-size: 4em;
+  color: rgb(39, 39, 39);
+}
+
+.p-bottom {
+  position: absolute;
+  bottom: 80px;
+  left: -50px;
+  font-size: 30px;
+  color: rgb(214, 211, 211);
+  font-family: "Hind", sans-serif;
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */
+  transform: rotate(270deg); /* Standard syntax */
+}
+
+.p-top {
+  position: absolute;
+  top: 80px;
+  right: -50px;
+  font-size: 30px;
+  color: rgb(214, 211, 211);
+  font-family: "Hind", sans-serif;
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */
+  transform: rotate(90deg); /* Standard syntax */
+}
+
+@media only screen and (max-width: 650px) {
+  .portfolio-content {
+    width: 75%;
+    height: 70vh;
+  }
+}

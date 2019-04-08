@@ -1,0 +1,11 @@
+/* imports */
+
+@import url("https://fonts.googleapis.com/css?family=Major+Mono+Display");
+@import url("https://fonts.googleapis.com/css?family=Hind");
+
+/* header */
+
+.title-img {
+  margin-top: 20px;
+  width: 400px;
+}

@@ -44,9 +44,39 @@
             <div class="coming-soon">
               <img src="./assets/phumie-logo-white.png" alt="logo" />
               <h3>WEB DEVELOPMENT | SOFTWARE DEVELOPMENT | UI/UX DESINGING</h3>
-              <p>WEBSITE UNDER CONSTRUCTION</p>
+              <p>WEBSITE UNDER CONSTRUCTION.</p>
               <hr />
+              <div class="counter">
+                <p id="days"></p>
+                <p id="hours"></p>
+                <p id="minutes"></p>
+                <p id="seconds"></p>
+              </div>
+              <!-- <h3 class="counter" id="counter"></h3> -->
             </div>
         </div>
+
+        <script>
+          var countDownDate = new Date("March 8, 2019 12:00:00").getTime();
+          var x = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+              
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+              
+            document.getElementById("days").innerHTML = days + "d ";
+            document.getElementById("hours").innerHTML = hours + "h ";
+            document.getElementById("minutes").innerHTML = minutes + "m ";
+            document.getElementById("seconds").innerHTML = seconds + "s ";
+              
+            if (distance < 0) {
+              clearInterval(x);
+              document.getElementById("counter").innerHTML = "EXPIRED";
+            }
+          }, 1000);
+        </script>
   </body>
 </html>

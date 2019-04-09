@@ -47,6 +47,22 @@ body {
   width: 20%;
 }
 
+.counter {
+  border: 1px solid black;
+  position: absolute;
+  left: 50%;
+}
+
+.counter p {
+  /* background: rgb(61, 61, 61);
+  height: 50px;
+  width: 60px; */
+  float: left;
+  /* margin: 10px;
+  padding: 15px;
+  border-radius: 4px; */
+}
+
 @media only screen and (max-width: 650px) {
   .contents {
     width: 100%;

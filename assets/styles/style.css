@@ -20,7 +20,6 @@ img {
 
 .name {
     position: absolute;
-    width: 500px;
     left: 50%;
     top: 44%;
     transform: translate(-50%, -50%);
@@ -50,8 +49,6 @@ img {
 .enter p {
     color: rgb(255, 27, 27);
     letter-spacing: 3mm;
-    display: block;
-    margin: auto;
 }
 
 .enter a {
@@ -123,13 +120,16 @@ img {
 }
 
 @media screen and (max-width: 500px) {
-    .enter a {
-        font-size: 15px;
-        display: inline-block;
+  img {
+    width: 70%;
+  }
+    .enter p {
+        font-size: 12px;
+        letter-spacing: 2mm;
     }
 
     .line {
-        font-size: 15px;
+        font-size: 18px;
         width: 14em;
         letter-spacing: 1mm;
     }

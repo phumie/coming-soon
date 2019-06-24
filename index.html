@@ -1,81 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- styles -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Quicksand"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
 
-    <!-- scripts -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <title>Coming Soon</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <body>
-    <div class="container-fluid">
-        <div class="contents">
-            <div class="coming-soon">
-              <img src="./assets/phumie-logo-white.png" alt="logo" />
-              <h3>WEB DEVELOPMENT | SOFTWARE DEVELOPMENT | UI/UX DESINGING</h3>
-              <p>WEBSITE UNDER CONSTRUCTION.</p>
-              <hr />
-              <!-- <div class="counter">
-                <p id="days"></p>
-                <p id="hours"></p>
-                <p id="minutes"></p>
-                <p id="seconds"></p>
-              </div> -->
-            </div>
-        </div>
+  <link rel="stylesheet" href="assets\styles\style.css">
+  <script src="https://kit.fontawesome.com/35baa4388f.js"></script>
+  <title>Phumie Nevhutala | Coming Soon</title>
+</head>
 
-        <script>
-          var countDownDate = new Date("April 31, 2019 12:00:00").getTime();
-          var x = setInterval(function() {
-            var now = new Date().getTime();
-            var distance = countDownDate - now;
-              
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-              
-            document.getElementById("days").innerHTML = days + "d ";
-            document.getElementById("hours").innerHTML = hours + "h ";
-            document.getElementById("minutes").innerHTML = minutes + "m ";
-            document.getElementById("seconds").innerHTML = seconds + "s ";
-              
-            if (distance < 0) {
-              clearInterval(x);
-              document.getElementById("counter").innerHTML = "EXPIRED";
-            }
-          }, 1000);
-        </script>
-  </body>
+<body>
+  <img src="assets\images\phumie-logo-black.png" alt="phumie-logo" class="name fade-in">
+  <div class="entry" id="entry">
+    <div class="content">
+      <div class="row">
+
+        <p class="line typewriter-effect">web. rpa. Design.</p>
+      </div>
+    </div>
+    <div class="enter fade-in">
+      <p>Coming Soon</p>
+      <!-- <a href=""><i class="fab fa-twitter"></i></a>
+      <a href=""><i class="fas fa-envelope"></i></a>
+      <a href=""><i class="fas fa-phone"></i></a> -->
+    </div>
+
+  </div>
+</body>
+
 </html>

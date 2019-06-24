@@ -130,7 +130,7 @@ img {
 
     .line {
         font-size: 18px;
-        width: 14em;
+        width: 13em;
         letter-spacing: 1mm;
     }
 
@@ -139,7 +139,7 @@ img {
               width: 0;
         }
         to {
-              width: 14em;
+              width: 13em;
         }
     }
 }

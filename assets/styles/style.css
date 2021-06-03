@@ -107,7 +107,7 @@ img {
           width: 0;
     }
     to {
-          width: 28em;
+          width: 12em;
     }
 }
 
@@ -122,16 +122,16 @@ img {
 
 @media screen and (max-width: 500px) {
   img {
-    width: 70%;
+    width: 80%;
   }
     .enter p {
-        font-size: 12px;
+        font-size: 10px;
         letter-spacing: 2mm;
     }
 
     .line {
-        font-size: 18px;
-        width: 13em;
+        font-size: 15px;
+        width: 11em;
         letter-spacing: 1mm;
     }
 
@@ -140,7 +140,7 @@ img {
               width: 0;
         }
         to {
-              width: 13em;
+              width: 11em;
         }
     }
 }
